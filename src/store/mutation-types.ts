@@ -1,0 +1,1 @@
+export const USER_INFO: string = 'user_info'; // 设置用户信息
