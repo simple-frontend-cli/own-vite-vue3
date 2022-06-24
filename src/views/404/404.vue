@@ -7,7 +7,7 @@ import { ref } from 'vue'
 </template>
 
 <style scoped lang="less">
-  .not-found-page {
-    color: red;
-  }
+.not-found-page {
+  color: red;
+}
 </style>

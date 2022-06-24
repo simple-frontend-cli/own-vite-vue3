@@ -1,6 +1,4 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="main-layout-div">
@@ -19,9 +17,7 @@
           <slot name="content"></slot>
         </div>
         <!-- 底部 -->
-        <footer>
-          技术支持:xxxx
-        </footer>
+        <footer>技术支持:xxxx</footer>
       </body>
     </div>
   </div>
@@ -29,13 +25,13 @@
 
 <style scoped lang="less">
 .main-layout-div {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
 
-  >header {
+  > header {
     width: 100%;
     height: 5rem;
     background-color: #fff;
@@ -47,14 +43,14 @@
     flex: 1;
     overflow: hidden;
 
-    >nav {
+    > nav {
       width: auto;
       height: 100%;
       padding: 1.25rem 0;
       background-color: #fff;
     }
 
-    >body {
+    > body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -72,12 +68,12 @@
         overflow: auto;
       }
 
-      >footer {
+      > footer {
         width: 100%;
         height: 1.875rem;
         text-align: center;
         line-height: 1.875rem;
-        font-size: .875rem;
+        font-size: 0.875rem;
       }
     }
   }

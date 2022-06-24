@@ -1,5 +1,6 @@
-import RequestApi from "./services";
+import RequestApi from './services'
 
 export const User = {
-    login: (params: { name: string, password: string }) => RequestApi.post('/login', params)
+  login: (params: { name: string; password: string }) =>
+    RequestApi.post('/login', params),
 }

@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 
-import MainLayout from "@/layouts/MainLayout/index.vue";
-import HeaderComponent from "@/components/Header/index.vue";
-import MenuComponent from "@/components/Menu/index.vue";
+import MainLayout from '@/layouts/MainLayout/index.vue'
+import HeaderComponent from '@/components/Header/index.vue'
+import MenuComponent from '@/components/Menu/index.vue'
 
-import { useStore } from 'vuex';
+import { useStore } from 'vuex'
 
-const store = useStore();
-const { manus } = store.state.user;
-
+const store = useStore()
+const { manus } = store.state.user
 </script>
 
 <template>
@@ -26,5 +25,4 @@ const { manus } = store.state.user;
   </main-layout>
 </template>
 
-<style scoped lang="less">
-</style>
+<style scoped lang="less"></style>
